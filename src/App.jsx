@@ -1,8 +1,14 @@
+import Header from "./components/Header"
+import Form from "./components/Form"
+import ListUsers from "./components/ListUsers"
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hola mundo</h1>
-    </div>
+    <>
+      <Header/>
+      <Form/>
+      <ListUsers/>
+    </>
   )
 }
 
